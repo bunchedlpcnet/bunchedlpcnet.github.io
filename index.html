@@ -1,5 +1,5 @@
 <html>
-    <head>
+	<head>
         <meta charset="UTF-8">
             <title>Audio samples : "Bunched LPCNet : Vocoder for Low-cost Neural Text-To-Speech Systems"</title>
                 <!--link rel="stylesheet" type="text/css" href="../../stylesheet.css"-->
@@ -12,17 +12,388 @@
             </header>
         </article>
 
-        <!--div><b>Paper:</b> <a href="https://arxiv.org/abs/1703.10135">arXiv</a> <a href="http://www.interspeech2017.org/program/technical-program/">Interspeech 2017</a></div-->
-        <!--div><b>Authors:</b> Yuxuan Wang, RJ Skerry-Ryan, Daisy Stanton, Yonghui Wu, Ron J. Weiss, Navdeep Jaitly, Zongheng Yang, Ying Xiao, Zhifeng Chen, Samy Bengio, Quoc Le, Yannis Agiomyrgiannakis, Rob Clark, Rif A. Saurous</div-->
-        <!--div><b>Abstract:</b> A text-to-speech synthesis system typically consists </div-->
 
         <div> 
-        <h3>Analysis by synthesis</h3>
-        <table>
-            <tr><td><class="transcript">“Generative adversarial network or variational auto-encoder.”</td></tr>
-            <tr><td><audio controls><source src="audio/test/test.wav"></audio></td></tr>
-        </table>
+		
+		<hr>
+		
+		<article>
+        <h2>Analysis by synthesis</h2>
+		
+		
+		<h3> Female Speaker </h3>
+		
+		<table>
+			<tr> 
+				<td> Example 1 : </td> 
+				<td> The reserves of electrical energy in all of us can be released only in exceptional circumstances. </td> 
+			</tr>
+			<tr> 
+				<td> Example 2 : </td> 
+				<td> In the new age the world will be united as one consciousness and become a single living creature. </td> 
+			</tr>
+			<tr> 
+				<td> Example 3 : </td> 
+				<td> The clay contains a particular mineral which helps to neutralize the toxins in the pangi. </td> 
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th> Sample Bunch </th>
+				<th> Bit Bunch </th>
+				<th> Example 1</th>
+				<th> Example 2</th>
+				<th> Example 3</th>
+			</tr>
+			<tr>
+				<td colspan="2"> Original </td>
+				<td><audio controls><source src="audio/CC_VC/3.11_original/016_sys11.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.11_original/048_sys11.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.11_original/064_sys11.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 1 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/CC_VC/3.1_sample1_bitF/016_sys01.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.1_sample1_bitF/048_sys01.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.1_sample1_bitF/064_sys01.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 1 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/CC_VC/3.2_sample1_bitT/016_sys02.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.2_sample1_bitT/048_sys02.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.2_sample1_bitT/064_sys02.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 2 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/CC_VC/3.3_sample2_bitF/016_sys03.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.3_sample2_bitF/048_sys03.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.3_sample2_bitF/064_sys03.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 2 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/CC_VC/3.4_sample2_bitT/016_sys04.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.4_sample2_bitT/048_sys04.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.4_sample2_bitT/064_sys04.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 3 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/CC_VC/3.5_sample3_bitF/016_sys05.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.5_sample3_bitF/048_sys05.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.5_sample3_bitF/064_sys05.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 3 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/CC_VC/3.6_sample3_bitT/016_sys06.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.6_sample3_bitT/048_sys06.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.6_sample3_bitT/064_sys06.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 4 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/CC_VC/3.7_sample4_bitF/016_sys07.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.7_sample4_bitF/048_sys07.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.7_sample4_bitF/064_sys07.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 4 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/CC_VC/3.8_sample4_bitT/016_sys08.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.8_sample4_bitT/048_sys08.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_VC/3.8_sample4_bitT/064_sys08.wav"></audio></td>
+			</tr>
+		</table>
 
-        </div>
+
+		<h3> Male Speaker </h3>
+		
+		<table>
+			<tr> 
+				<td> Example 1 : </td> 
+				<td> The cliche loses its talismanic virtue in the light of a little history. </td> 
+			</tr>
+			<tr> 
+				<td> Example 2 : </td> 
+				<td> I would want to know all about the animals. </td> 
+			</tr>
+			<tr> 
+				<td> Example 3 : </td> 
+				<td> Do you want to see the photographs or do you want the prayer book? </td> 
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th> Sample Bunch </th>
+				<th> Bit Bunch </th>
+				<th> Example 1</th>
+				<th> Example 2</th>
+				<th> Example 3</th>
+			</tr>
+			<tr>
+				<td colspan="2"> Original </td>
+				<td><audio controls><source src="audio/YAN_VC/3.11_original/020_sys11.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.11_original/038_sys11.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.11_original/061_sys11.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 1 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/YAN_VC/3.1_sample1_bitF/020_sys01.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.1_sample1_bitF/038_sys01.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.1_sample1_bitF/061_sys01.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 1 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/YAN_VC/3.2_sample1_bitT/020_sys02.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.2_sample1_bitT/038_sys02.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.2_sample1_bitT/061_sys02.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 2 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/YAN_VC/3.3_sample2_bitF/020_sys03.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.3_sample2_bitF/038_sys03.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.3_sample2_bitF/061_sys03.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 2 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/YAN_VC/3.4_sample2_bitT/020_sys04.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.4_sample2_bitT/038_sys04.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.4_sample2_bitT/061_sys04.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 3 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/YAN_VC/3.5_sample3_bitF/020_sys05.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.5_sample3_bitF/038_sys05.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.5_sample3_bitF/061_sys05.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 3 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/YAN_VC/3.6_sample3_bitT/020_sys06.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.6_sample3_bitT/038_sys06.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.6_sample3_bitT/061_sys06.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 4 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/YAN_VC/3.7_sample4_bitF/020_sys07.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.7_sample4_bitF/038_sys07.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.7_sample4_bitF/061_sys07.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 4 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/YAN_VC/3.8_sample4_bitT/020_sys08.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.8_sample4_bitT/038_sys08.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_VC/3.8_sample4_bitT/061_sys08.wav"></audio></td>
+			</tr>
+		</table>
+		
+		</article>
+		</div>
+		
+		<br>
+		<hr>
+		<br>
+		<article>
+		
+        <h2>DCTTS + LPCNet</h2>
+		
+		
+		<h3> Female Speaker </h3>
+		
+		<table>
+			<tr> 
+				<td> Example 1 : </td> 
+				<td> The reserves of electrical energy in all of us can be released only in exceptional circumstances. </td> 
+			</tr>
+			<tr> 
+				<td> Example 2 : </td> 
+				<td> In the new age the world will be united as one consciousness and become a single living creature. </td> 
+			</tr>
+			<tr> 
+				<td> Example 3 : </td> 
+				<td> The clay contains a particular mineral which helps to neutralize the toxins in the pangi. </td> 
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th> Sample Bunch </th>
+				<th> Bit Bunch </th>
+				<th> Example 1</th>
+				<th> Example 2</th>
+				<th> Example 3</th>
+			</tr>
+			<tr>
+				<td colspan="2"> Original </td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.11_original/016_sys11.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.11_original/048_sys11.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.11_original/064_sys11.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 1 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.1_sample1_bitF/016_sys01.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.1_sample1_bitF/048_sys01.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.1_sample1_bitF/064_sys01.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 1 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.2_sample1_bitT/016_sys02.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.2_sample1_bitT/048_sys02.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.2_sample1_bitT/064_sys02.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 2 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.3_sample2_bitF/016_sys03.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.3_sample2_bitF/048_sys03.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.3_sample2_bitF/064_sys03.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 2 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.4_sample2_bitT/016_sys04.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.4_sample2_bitT/048_sys04.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.4_sample2_bitT/064_sys04.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 3 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.5_sample3_bitF/016_sys05.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.5_sample3_bitF/048_sys05.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.5_sample3_bitF/064_sys05.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 3 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.6_sample3_bitT/016_sys06.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.6_sample3_bitT/048_sys06.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.6_sample3_bitT/064_sys06.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 4 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.7_sample4_bitF/016_sys07.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.7_sample4_bitF/048_sys07.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.7_sample4_bitF/064_sys07.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 4 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.8_sample4_bitT/016_sys08.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.8_sample4_bitT/048_sys08.wav"></audio></td>
+				<td><audio controls><source src="audio/CC_TTS_2000k/3.8_sample4_bitT/064_sys08.wav"></audio></td>
+			</tr>
+		</table>
+
+
+		<h3> Male Speaker </h3>
+		
+		<table>
+			<tr> 
+				<td> Example 1 : </td> 
+				<td> The cliche loses its talismanic virtue in the light of a little history. </td> 
+			</tr>
+			<tr> 
+				<td> Example 2 : </td> 
+				<td> I would want to know all about the animals. </td> 
+			</tr>
+			<tr> 
+				<td> Example 3 : </td> 
+				<td> Do you want to see the photographs or do you want the prayer book? </td> 
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th> Sample Bunch </th>
+				<th> Bit Bunch </th>
+				<th> Example 1</th>
+				<th> Example 2</th>
+				<th> Example 3</th>
+			</tr>
+			<tr>
+				<td colspan="2"> Original </td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.11_original/020_sys11.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.11_original/038_sys11.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.11_original/061_sys11.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 1 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.1_sample1_bitF/020_sys01.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.1_sample1_bitF/038_sys01.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.1_sample1_bitF/061_sys01.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 1 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.2_sample1_bitT/020_sys02.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.2_sample1_bitT/038_sys02.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.2_sample1_bitT/061_sys02.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 2 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.3_sample2_bitF/020_sys03.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.3_sample2_bitF/038_sys03.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.3_sample2_bitF/061_sys03.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 2 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.4_sample2_bitT/020_sys04.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.4_sample2_bitT/038_sys04.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.4_sample2_bitT/061_sys04.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 3 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.5_sample3_bitF/020_sys05.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.5_sample3_bitF/038_sys05.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.5_sample3_bitF/061_sys05.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 3 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.6_sample3_bitT/020_sys06.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.6_sample3_bitT/038_sys06.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.6_sample3_bitT/061_sys06.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 4 </td>
+				<td> (8,0) </td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.7_sample4_bitF/020_sys07.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.7_sample4_bitF/038_sys07.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.7_sample4_bitF/061_sys07.wav"></audio></td>
+			</tr>
+			<tr>
+				<td> 4 </td>
+				<td> (7,4) </td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.8_sample4_bitT/020_sys08.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.8_sample4_bitT/038_sys08.wav"></audio></td>
+				<td><audio controls><source src="audio/YAN_TTS_2000k/3.8_sample4_bitT/061_sys08.wav"></audio></td>
+			</tr>
+		</table>
+		
+		</article>
+		</div>		
+		
+		
+        
     </body>
 </html>
